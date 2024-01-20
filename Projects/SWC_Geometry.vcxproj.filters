@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Include">
+      <UniqueIdentifier>{e9952a41-3038-4149-bb90-5d2a5cf44aa8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Private">
+      <UniqueIdentifier>{ea080eae-accb-425b-a06f-c5b78b844645}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\Core">
+      <UniqueIdentifier>{a45b08d7-a4fb-4009-9764-a8cf5f1d6f51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\RenderCore">
+      <UniqueIdentifier>{8ac49310-cca7-4ed4-9126-6da830f9f11c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Private\RenderCore">
+      <UniqueIdentifier>{187dadda-b853-4bba-9b86-49b3b94f7458}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\RenderFramework">
+      <UniqueIdentifier>{0fd4ca9a-142c-4c09-b0c7-18cde584dd2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Private\RenderDeviceLayer">
+      <UniqueIdentifier>{148caf09-89ae-4129-a2b8-9f6a858036bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Private\RenderFramework">
+      <UniqueIdentifier>{aa9d3748-4a46-4f52-aea9-749084969840}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\Core\Enum">
+      <UniqueIdentifier>{4b973158-4e4d-4e65-ba10-9236a6b0e7b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\Core\Desc">
+      <UniqueIdentifier>{43a56ce0-9858-4cc2-a1c4-0e12623a1926}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Private\Core">
+      <UniqueIdentifier>{22ac1ffd-cce8-4669-af82-6b68ba07383e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\RenderFramework\Plugin">
+      <UniqueIdentifier>{4e0754e0-81c4-4718-95df-c59788d26096}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Private\RenderFramework\Plugin">
+      <UniqueIdentifier>{49c6d8e0-582a-4ebe-aea6-13764a240799}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\RenderDeviceLayer%28RDL%29">
+      <UniqueIdentifier>{f5af1c1e-97d5-40e2-aee2-3caf4c30591d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

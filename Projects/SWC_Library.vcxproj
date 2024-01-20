@@ -1,0 +1,200 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Inc\SWC_Library\Core\Desc\SWCDescClear.hpp" />
+    <ClInclude Include="..\Inc\SWC_Library\Core\Desc\SWCDescMultiSample.hpp" />
+    <ClInclude Include="..\Inc\SWC_Library\Core\Desc\SWCDescRenderTarget.hpp" />
+    <ClInclude Include="..\Inc\SWC_Library\Core\Desc\SWCDescWorld.hpp" />
+    <ClInclude Include="..\Inc\SWC_Library\Core\Enum\SWCEnumBlend.hpp" />
+    <ClInclude Include="..\Inc\SWC_Library\Core\Enum\SWCEnumComparison.hpp" />
+    <ClInclude Include="..\Inc\SWC_Library\Core\Enum\SWCEnumMultiSample.hpp" />
+    <ClInclude Include="..\Inc\SWC_Library\Core\Enum\SWCEnumPixelFormat.hpp" />
+    <ClInclude Include="..\Inc\SWC_Library\Core\Enum\SWCEnumStencil.hpp" />
+    <ClInclude Include="..\Inc\SWC_Library\Core\SWCCore.hpp" />
+    <ClInclude Include="..\Inc\SWC_Library\RenderCore\SWCRenderCore.hpp" />
+    <ClInclude Include="..\Inc\SWC_Library\RenderCore\SWCRenderCoreFwdDclr.hpp" />
+    <ClInclude Include="..\Inc\SWC_Library\RenderCore\SWCRenderShader.hpp" />
+    <ClInclude Include="..\Inc\SWC_Library\RenderCore\SWCRenderShader_PixelShader.hpp" />
+    <ClInclude Include="..\Inc\SWC_Library\RenderCore\SWCRenderShader_VertexShader.hpp" />
+    <ClInclude Include="..\Inc\SWC_Library\RenderCore\SWCRenderState.hpp" />
+    <ClInclude Include="..\Inc\SWC_Library\RenderCore\SWCRenderTarget.hpp" />
+    <ClInclude Include="..\Inc\SWC_Library\RenderCore\SWCRenderTargetManager.hpp" />
+    <ClInclude Include="..\Inc\SWC_Library\RenderDeviceLayer\SWCRenderDeviceLayer.hpp" />
+    <ClInclude Include="..\Inc\SWC_Library\RenderDeviceLayer\SWCRenderDeviceLayerMethod.hpp" />
+    <ClInclude Include="..\Inc\SWC_Library\RenderFramework\SWCFrameworkFwdDclr.hpp" />
+    <ClInclude Include="..\Inc\SWC_Library\RenderFramework\SWCPlugin_RenderDeviceLayer.hpp" />
+    <ClInclude Include="..\Inc\SWC_Library\RenderFramework\SWCPrimitiveDrawList.hpp" />
+    <ClInclude Include="..\Inc\SWC_Library\RenderFramework\SWCRenderer.hpp" />
+    <ClInclude Include="..\Inc\SWC_Library\RenderFramework\SWCRenderFlow.hpp" />
+    <ClInclude Include="..\Inc\SWC_Library\RenderFramework\SWCRenderPass.hpp" />
+    <ClInclude Include="..\Inc\SWC_Library\RenderFramework\SWCRenderPass_Base.hpp" />
+    <ClInclude Include="..\Inc\SWC_Library\RenderFramework\SWCRenderPass_PreDepth.hpp" />
+    <ClInclude Include="..\Inc\SWC_Library\RenderFramework\SWCScene.hpp" />
+    <ClInclude Include="..\Inc\SWC_Library\RenderFramework\SWCPrimitiveProxy.hpp" />
+    <ClInclude Include="..\Inc\SWC_Library\RenderFramework\SWCRoot.hpp" />
+    <ClInclude Include="..\Src\SWC_Library\RenderCore\SWCRenderStateManager.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Src\SWC_Library\RenderCore\SWCRenderShader.cpp" />
+    <ClCompile Include="..\Src\SWC_Library\RenderCore\SWCRenderShader_PixelShader.cpp" />
+    <ClCompile Include="..\Src\SWC_Library\RenderCore\SWCRenderShader_VertexShader.cpp" />
+    <ClCompile Include="..\Src\SWC_Library\RenderCore\SWCRenderState.cpp" />
+    <ClCompile Include="..\Src\SWC_Library\RenderCore\SWCRenderStateManager.cpp" />
+    <ClCompile Include="..\Src\SWC_Library\RenderCore\SWCRenderTarget.cpp" />
+    <ClCompile Include="..\Src\SWC_Library\RenderCore\SWCRenderTargetManager.cpp" />
+    <ClCompile Include="..\Src\SWC_Library\RenderDeviceLayer\SWCRenderDeviceLayer.cpp" />
+    <ClCompile Include="..\Src\SWC_Library\RenderFramework\SWCPlugin_RenderDeviceLayer.cpp" />
+    <ClCompile Include="..\Src\SWC_Library\RenderFramework\SWCRenderer.cpp" />
+    <ClCompile Include="..\Src\SWC_Library\RenderFramework\SWCRenderFlow.cpp" />
+    <ClCompile Include="..\Src\SWC_Library\RenderFramework\SWCRenderPass.cpp" />
+    <ClCompile Include="..\Src\SWC_Library\RenderFramework\SWCScene.cpp" />
+    <ClCompile Include="..\Src\SWC_Library\RenderFramework\SWCPrimitiveProxy.cpp" />
+    <ClCompile Include="..\Src\SWC_Library\RenderFramework\SWCRoot.cpp" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{D845A969-0CF5-4225-935B-AB0E3A0AD188}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>RKK_Library</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)Output\$(Configuration)\$(Platform)\</OutDir>
+    <IntDir>$(SolutionDir)Intermediate\$(ProjectName)\$(Configuration)\$(Platform)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>$(SolutionDir)Output\$(Configuration)\$(Platform)\</OutDir>
+    <IntDir>$(SolutionDir)Intermediate\$(ProjectName)\$(Configuration)\$(Platform)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)Output\$(Configuration)\$(Platform)\</OutDir>
+    <IntDir>$(SolutionDir)Intermediate\$(ProjectName)\$(Configuration)\$(Platform)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>$(SolutionDir)Output\$(Configuration)\$(Platform)\</OutDir>
+    <IntDir>$(SolutionDir)Intermediate\$(ProjectName)\$(Configuration)\$(Platform)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
